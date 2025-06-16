@@ -1,0 +1,6 @@
+EmployeeRole,HighRiskUsers,Freq_VIP_Access,Freq_NewUser_Access,Freq_HighRisk_Access,ManualOverrides_Daily,FailedLogins_Daily,LoginTime,LogoutTime
+VIPHandler,2,10,4,3,1,3,09:08,21:07
+General,1,3,3,8,3,0,11:03,18:41
+NewAccountHandler,6,5,6,5,3,3,09:56,16:00
+NewAccountHandler,4,3,3,6,5,1,07:06,15:35
+NewUserHandler,8,3,7,5,2,0,09:12,19:46
