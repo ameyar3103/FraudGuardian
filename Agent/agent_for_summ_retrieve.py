@@ -2,7 +2,7 @@ import getpass
 import os
 
 if not os.environ.get("GOOGLE_API_KEY"):
-  os.environ["GOOGLE_API_KEY"] = "AIzaSyBMMWHEyi2RcvBLP0rx06Lm81zhEtgJz1Y"
+  os.environ["GOOGLE_API_KEY"] = ""
 
 from langchain.chat_models import init_chat_model
 
