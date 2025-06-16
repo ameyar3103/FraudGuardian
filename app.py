@@ -181,7 +181,7 @@ with st.expander("Initiate a Transaction", expanded=True):
             with st.spinner("🤖 Agent fetching records..."):
                 # simulate delay or real fetch
                 # time.sleep(2)
-                os.environ["GOOGLE_API_KEY"] = "AIzaSyBMMWHEyi2RcvBLP0rx06Lm81zhEtgJz1Y"
+                os.environ["GOOGLE_API_KEY"] = ""
                 model = init_chat_model("gemini-2.0-flash", model_provider="google_genai")
                 with open('./Agent/Customer1.json', 'r') as f:
                     customer1 = f.read()
